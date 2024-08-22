@@ -10,6 +10,19 @@ To Visit the app [Follow Me](https://stock-market-prediction-appgit-62ykqnsh6j9b
   - Fetch stock data from the Polygon.io API using your API key and stock symbol.
   - Upload a CSV file containing historical stock prices.
   - Use a predefined dataset (`stock_prediction_app.csv`) available within the app.
+ 
+### For Uploaded CSV Files
+
+If you choose to upload your own CSV file, ensure that the file contains the following columns:
+
+- **date**: The date of the stock data (in any standard date format).
+- **closing_price**: The closing price of the stock on that date.
+
+The column names must be exactly as specified (`date` and `closing_price`). The file should be in CSV format.
+
+### For Predefined Dataset
+
+The app includes a predefined dataset (`stock_market_data.csv`) that already contains the required columns. You can select this option if you do not wish to provide your own data.
 
 - **Prediction Capabilities**:
   - Predict stock prices for a specified number of future days.
