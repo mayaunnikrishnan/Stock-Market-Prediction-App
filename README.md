@@ -3,7 +3,7 @@
 ## Overview
 
 The **Stock Price Prediction App** is designed to forecast future stock prices using a pre-trained Support Vector Regressor (SVR) model. The application is built using **Streamlit** for the user interface, **scikit-learn** for machine learning, and **Polygon.io** for stock data retrieval. Users can fetch stock data via an API, upload their own CSV files, or use a predefined dataset provided within the app.
-To Visit the app [Follow Me]()
+To Visit the app [Follow Me](https://stock-market-prediction-appgit-62ykqnsh6j9bcfhlhx3twa.streamlit.app/)
 ## Features
 
 - **Data Retrieval Options**:
